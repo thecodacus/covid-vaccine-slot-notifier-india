@@ -30,7 +30,7 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  cd ui && npm i
+                  cd ui && npm i && cd ..
 
             - name: Build Electron Main
               run: npm run build
@@ -58,7 +58,7 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  cd ui && npm i
+                  cd ui && npm i && cd ..
 
             - name: Build Electron Main
               run: npm run build
@@ -88,7 +88,7 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  cd ui && npm i
+                  cd ui && npm i && cd ..
 
             - name: Build Electron Main
               run: npm run build
