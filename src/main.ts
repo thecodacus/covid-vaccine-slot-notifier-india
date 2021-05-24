@@ -35,7 +35,7 @@ export default class Main {
 			Main.mainWindow.loadFile(__dirname + "/ui/index.html");
 		}
 
-		Main.mainWindow.webContents.openDevTools();
+		// Main.mainWindow.webContents.openDevTools();
 		Main.mainWindow.on("closed", Main.onClose);
 		Main.initiateIpc();
 	}
