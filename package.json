@@ -2,14 +2,18 @@
 	"name": "covid-vaccine-slot-notifier-india",
 	"version": "1.0.0",
 	"description": "",
-	"main": "dist/app.js",
+	"main": ".build/app.js",
 	"scripts": {
 		"buildMain": "tsc",
 		"buildUI": "cd ui&& ng build --base-href ./",
 		"build": "npm run buildMain && npm run buildUI",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node ./dist/main.js",
-		"electron:serve": "export ELECTRON_SERVE=\"true\"&&npm run buildMain&&electron ."
+		"start": "electron .",
+		"electron:serve": "export ELECTRON_SERVE=\"true\"&&npm run buildMain&&electron .",
+		"pack": "electron-builder --dir",
+		"dist": "electron-builder",
+		"postinstall": "electron-builder install-app-deps",
+		"publish": "electron-builder -mwl --publish always"
 	},
 	"repository": {
 		"type": "git",
@@ -24,6 +28,7 @@
 	"devDependencies": {
 		"@types/electron": "^1.6.10",
 		"electron": "^12.0.9",
+		"electron-builder": "^22.10.5",
 		"typescript": "^4.2.4"
 	},
 	"dependencies": {

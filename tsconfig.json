@@ -10,7 +10,7 @@
 		"noImplicitAny": false,
 		"suppressImplicitAnyIndexErrors": true,
 		"rootDir": "./src",
-		"outDir": "./dist"
+		"outDir": "./.build"
 	},
 	"exclude": ["node_modules", "ui"]
 }
