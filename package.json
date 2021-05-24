@@ -4,10 +4,12 @@
 	"description": "",
 	"main": "dist/app.js",
 	"scripts": {
-		"build": "tsc",
+		"buildMain": "tsc",
 		"buildUI": "cd ui&& ng build --base-href ./",
+		"build": "npm run buildMain && npm run buildUI",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node ./dist/main.js"
+		"start": "node ./dist/main.js",
+		"electron:serve": "export ELECTRON_SERVE=\"true\"&&npm run buildMain&&electron ."
 	},
 	"repository": {
 		"type": "git",
@@ -23,5 +25,8 @@
 		"@types/electron": "^1.6.10",
 		"electron": "^12.0.9",
 		"typescript": "^4.2.4"
+	},
+	"dependencies": {
+		"rxjs": "^7.1.0"
 	}
 }
