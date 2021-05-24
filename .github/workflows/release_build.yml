@@ -30,7 +30,6 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  npm install -g @angular/cli 
                   cd ui && npm i
 
             - name: Build Electron Main
@@ -59,7 +58,6 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  npm install -g @angular/cli 
                   cd ui && npm i
 
             - name: Build Electron Main
@@ -90,7 +88,6 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  npm install -g @angular/cli 
                   cd ui && npm i
 
             - name: Build Electron Main

@@ -5,7 +5,7 @@
 	"main": ".build/app.js",
 	"scripts": {
 		"buildMain": "tsc",
-		"buildUI": "cd ui&& ng build --base-href ./",
+		"buildUI": "cd ui&& npx ng build --base-href ./",
 		"build": "npm run buildMain && npm run buildUI",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "electron .",
