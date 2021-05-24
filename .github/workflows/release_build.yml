@@ -28,11 +28,11 @@ jobs:
             - name: Install Node Dependencies
               run: npm i
 
-            - name: Install UI Dependencies
+            - name: Build UI
               run: |
-                  cd ui
-				  npm i 
-				  cd ..
+                cd ui
+                npm i 
+                cd ..
 
             - name: Build Electron Main
               run: npm run build
@@ -60,9 +60,9 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  cd ui
-				  npm i 
-				  cd ..
+                cd ui
+                npm i 
+                cd ..
 
             - name: Build Electron Main
               run: npm run build
@@ -92,9 +92,10 @@ jobs:
 
             - name: Install UI Dependencies
               run: |
-                  cd ui
-				  npm i 
-				  cd ..
+                cd ui
+                npm i 
+                cd ..
+
             - name: Build Electron Main
               run: npm run build
 
