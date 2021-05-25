@@ -44,7 +44,7 @@ jobs:
       - name: Cache electron build
         uses: actions/cache@v2
         with:
-          key: ${{GITHUB_ACTION}}-mac-package
+          key: ${{env.GITHUB_ACTION}}-mac-package
           path: |
             dist/*.dmg
 
@@ -85,7 +85,7 @@ jobs:
       - name: Cache electron build
         uses: actions/cache@v2
         with:
-          key: ${{GITHUB_ACTION}}-windows-package
+          key: ${{env.GITHUB_ACTION}}-windows-package
           path: |
             dist/*.exe
 
@@ -124,7 +124,7 @@ jobs:
       - name: Cache electron build
         uses: actions/cache@v2
         with:
-          key: ${{GITHUB_ACTION}}-linux-package
+          key: ${{env.GITHUB_ACTION}}-linux-package
           path: |
             dist/*.AppImage
 
@@ -145,19 +145,19 @@ jobs:
       - name: Cache electron build linux
         uses: actions/cache@v2
         with:
-          key: ${{GITHUB_ACTION}}-linux-package
+          key: ${{env.GITHUB_ACTION}}-linux-package
           path: |
             dist/*.AppImage
       - name: Cache electron build mac
         uses: actions/cache@v2
         with:
-          key: ${{GITHUB_ACTION}}-mac-package
+          key: ${{env.GITHUB_ACTION}}-mac-package
           path: |
             dist/*.dmg
       - name: Cache electron build windows
         uses: actions/cache@v2
         with:
-          key: ${{GITHUB_ACTION}}-windows-package
+          key: ${{env.GITHUB_ACTION}}-windows-package
           path: |
             dist/*.exe
       - name: Checking build files
