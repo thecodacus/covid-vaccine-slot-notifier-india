@@ -6,8 +6,9 @@ Here is another cowin vaccine slot availability notifier.
 you can download the release version and install it in your system. it will automatically ping you whenever slot is available.
 
 ## Downloads
+download the latest release from [here](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/releases/latest)
 
-TODO
+If you want to download any specific version visit the [release page](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/releases)
 
 ## Hou to use
 
