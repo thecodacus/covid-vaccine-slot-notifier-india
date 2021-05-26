@@ -1,5 +1,6 @@
 # Y.et A.nother N.otifier for C.owin
 
+![Build Release](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/actions/workflows/Build Release/badge.svg)
 ## About
 
 Here is another cowin vaccine slot availability notifier.
