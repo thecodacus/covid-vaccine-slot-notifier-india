@@ -1,11 +1,11 @@
 {
 	"appId": "com.thecodacus.yanc",
 	"productName": "YANC",
-	"files": ["package.json", ".build/**/*", "node_modules"],
+	"files": ["package.json", ".build/**/*", "node_modules","assets"],
 	"directories": {
 		"app": ".",
 		"output": "dist",
-		"buildResources": ".build"
+		"buildResources": "assets"
 	},
 	"dmg": {
 		"background": null,

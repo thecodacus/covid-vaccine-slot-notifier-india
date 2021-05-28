@@ -21,3 +21,4 @@ TODO
 ## Attributions
 
 -   [Cowin Public API](https://apisetu.gov.in/public/api/cowin#/Appointment%20Availability%20APIs/findByPin)
+-   [Heart With Mouse]("https://icons8.com/icon/43960/heart-with-mouse") icon by [Icons8]("https://icons8.com")

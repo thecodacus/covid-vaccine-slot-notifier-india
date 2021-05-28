@@ -77,11 +77,13 @@ export class AppComponent {
 
     if (this.isRunning) {
       this.isRunning = !this.isRunning;
+      this.updateStatus();
       return this.monSvc.stopService();
     }
 
     if (this.form.valid) {
       this.isRunning = !this.isRunning;
+      this.updateStatus();
       return this.monSvc.startService(this.form.value);
     }
 
@@ -91,7 +93,6 @@ export class AppComponent {
         '',
         { duration: 5000 }
       );
-    this.updateStatus();
   }
   formatConfig(obj: IConfig) {
     return `

@@ -32,6 +32,8 @@
 		"typescript": "^4.2.4"
 	},
 	"dependencies": {
+		"node-notifier": "^10.0.0",
+		"open": "^8.2.0",
 		"rxjs": "^7.1.0"
 	}
 }
