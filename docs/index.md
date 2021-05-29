@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Y.et A.nother N.otifier for C.owin
 
-You can use the [editor on GitHub](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![Build Release](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/actions/workflows/release_build.yml/badge.svg)
+## About
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Here is another cowin vaccine slot availability notifier.
+you can download the release version and install it in your system. it will automatically ping you whenever slot is available.
 
-### Markdown
+## Downloads
+download the latest release from [here](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/releases/latest)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If you want to download any specific version visit the [release page](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/releases)
 
-```markdown
-Syntax highlighted code block
+## Hou to use
+![demo](https://user-images.githubusercontent.com/29654145/119701803-641b6c00-be72-11eb-8da6-37abfd023fd6.gif)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Author
 
-**Bold** and _Italic_ and `Code` text
+-   [Anirban](thecodacus@gmail.com)
 
-[Link](url) and ![Image](src)
-```
+## Attributions
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thecodacus/covid-vaccine-slot-notifier-india/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+-   [Cowin Public API](https://apisetu.gov.in/public/api/cowin#/Appointment%20Availability%20APIs/findByPin)
+-   [Heart With Mouse](https://icons8.com/icon/43960/heart-with-mouse) icon by [Icons8](https://icons8.com)
