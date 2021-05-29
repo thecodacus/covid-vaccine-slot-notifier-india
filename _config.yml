@@ -1,1 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-tactile
+title: Welcome to YANC's Homepage
+description: Feel free to bookmark this to keep an eye on my project
+show_downloads: "true"
