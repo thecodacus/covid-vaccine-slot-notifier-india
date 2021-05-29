@@ -1,2 +1,5 @@
 theme: jekyll-theme-tactile
-show_downloads: true
+title: Welcome to YANC's Homepage
+description: Fel free to bookmark this to keep an eye on my project
+show_downloads: "true"
+
